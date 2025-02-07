@@ -12,12 +12,12 @@ if ('serviceWorker' in navigator) {
 }
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCuWLYWUJ2R4v6ptAKcL2jmXJPDSGl7uW0",
-    authDomain: "info5146.firebaseapp.com",
-    projectId: "info5146",
-    storageBucket: "info5146.firebasestorage.app",
-    messagingSenderId: "711911517967",
-    appId: "1:711911517967:web:cadd485436fb294a85987a"
+  apiKey: "AIzaSyBd-5J7Nz5h7qYwvuitlPubTNzCmlL1xZI",
+  authDomain: "checklist-3d13a.firebaseapp.com",
+  projectId: "checklist-3d13a",
+  storageBucket: "checklist-3d13a.firebasestorage.app",
+  messagingSenderId: "537572989728",
+  appId: "1:537572989728:web:a4e786dfbdd06772745545"
 };
   
 const app = initializeApp(firebaseConfig);
