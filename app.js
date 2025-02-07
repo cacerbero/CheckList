@@ -10,7 +10,7 @@ if ('serviceWorker' in navigator) {
         .then(_ => console.log('Service Worker Registered for scope:', sw.href, 'with', import.meta.url))
         .catch(err => console.error('Service Worker Error:', err));
 }
-
+console.log('this is working..');
 const firebaseConfig = {
   apiKey: "AIzaSyBd-5J7Nz5h7qYwvuitlPubTNzCmlL1xZI",
   authDomain: "checklist-3d13a.firebaseapp.com",
@@ -22,6 +22,7 @@ const firebaseConfig = {
   
 const app = initializeApp(firebaseConfig);
 console.log("firebased ininitalized properly", app);
+// console.log("firebased ininitalized properly", app().name);
 const db = getFirestore(app);
 console.log("Firestore instance created:", db);
 
