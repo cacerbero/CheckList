@@ -21,7 +21,10 @@ const firebaseConfig = {
 };
   
 const app = initializeApp(firebaseConfig);
+console.log("firebased ininitalized properly", app);
 const db = getFirestore(app);
+console.log("Firestore instance created:", db);
+
 
 const taskInput = document.getElementById('taskInput');
 const addTaskBtn = document.getElementById('addTaskBtn');
